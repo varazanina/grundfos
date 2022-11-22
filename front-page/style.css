@@ -1,0 +1,50 @@
+body{
+    background-image: url(../images/fr.background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    margin: 0;
+}
+
+#back {
+    position: fixed;
+    z-index: -5;
+    width: 100%;
+    height: auto;
+}
+
+
+.ic {
+    display: flex;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 800px) {
+    body{
+    background-image: url(../images/mobile/fr.mob.background.png);
+    }
+
+    #back {
+        display: none;
+    }
+
+    #mback {
+    display: show;
+    position: fixed;
+    z-index: -5;
+    width: 100%;
+    height: auto;
+    }
+  }
+
+  @media only screen and (min-width: 800px){
+    #back{
+        display: show;
+    }
+
+    #mback{
+        display: none;
+    }
+
+  }

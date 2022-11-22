@@ -1,0 +1,178 @@
+/* Styling */
+body{
+   
+    background-image: url(../images/id.background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+}
+
+
+.title {
+    position: relative;
+    top: 0px;
+    right: 230px;
+}
+
+
+.firstText{
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    opacity: 1;
+    font: bold normal normal 40px/53px Segoe UI;
+}
+
+.secondText {
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    opacity: 1;
+    font: normal normal 40px/53px Segoe UI;
+}
+
+.qr {
+    text-align: center;
+    margin-top: 90px; 
+}
+
+.hiddenfirsttext{
+    display: none;
+}
+
+
+.downText {
+    text-align: center;
+    font: italic normal normal 40px/53px Segoe UI;
+    letter-spacing: 2px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 100px; 
+}
+
+.lsw {
+    position: relative;
+    top: -1110px;
+    right: -1400px;
+}
+
+.firstText, .secondText{ 
+    line-height: 0.4;
+    position: relative;
+    top: 25px;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+main {
+    width: 87vw;
+}
+
+.clickme{
+    display: none;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    body{
+        background-image: url(../images/mobile/id.mob.background.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: fixed;
+        }
+    
+    .qr{
+        display:none;
+    }
+
+    .firstText{
+        display: none;
+    }
+    
+    
+    .hiddenfirsttext{
+        display: block;
+        text-align: center;
+        margin-top: 25%;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        opacity: 1;
+        font-weight: bold;     
+        
+    }
+    
+
+    .clickme {
+        display: block;
+        margin: auto;
+        margin-top: 20%;
+        padding: 2%;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        overflow: hidden;
+        width: 80%;
+        font: normal normal 40px/53px Segoe UI;
+        background-color: rgba(255, 255, 255, 0.297);
+        color: rgb(255, 255, 255);
+    }
+    
+        a:link {
+            text-decoration: none;
+          }
+        
+
+    .hiddenfirsttext, .secondText, .downText, .clickme {
+        position: relative;
+        top: auto;
+        right: -5%;
+    }
+
+    .firstText, .secondText{ 
+        line-height: 2;
+        position: relative;
+        top: 25px;
+    }
+
+    .downText{
+    text-align: center;
+    margin-top: 50%;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    opacity: 1;
+    line-height: normal;
+    }
+
+.hiddenfirsttext, .secondText{
+line-height: 0%;
+}
+
+#herefirst{
+    font-size: 30px;
+}
+
+#heresecond{
+    font-size: 18px;
+    line-height: 130%;
+}
+
+#herelast{
+    font-size: 20px;
+}
+
+
+.button__text{
+    font-size: 80%;
+}
+
+
+
+
+
+
+
+}

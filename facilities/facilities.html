@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Facilities of the Grundfos dormitory">
+    <meta name="keywords" content="Facilities, common room, laundry, cycling room, cycle">
+    <meta name="author" content="Grundfos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facilities</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../base/universal.css">
+</head>
+<body>
+    <div id="overlay" class="container" onclick="off()">
+            <div id="text">
+                <button type="button" class="button" id="common">common room</button>
+                <img src="../images/common room.png">
+                <h6>Where at?</h6>
+                <p>The common room is situated at the 11th floor of the building and includes a terrasse with an amazing view of Aarhus city and the harbour.</p>
+                <h6>What for?</h6>
+                <p>This is a meeting place for all the residents. The room is equipped with:<br>
+                    • larger kitchen area<br>
+                    • big TV<br>
+                    • billiard table<br>
+                    • table football<br>
+                    • many other board games etc.<br>
+                   You can book some parts of the room for a private event in the calendar section.</p>
+            </div>
+        </div>
+        <div id="overlay1" class="container" onclick="off1()">
+            <div id="text">
+                <button type="button" class="button" id="study">study room</button>
+                <img src="../images/study room.png">
+                <h6>Where at?</h6>
+                <p>The study room is situated on the ground floor of the building. </p>
+                <h6>What for?</h6>
+                <p>This is a quiet space for studying for all the residents.<br> 
+
+                    It is equipped with printers, study desks, computers and a free wi-fi.
+                    Beware that thee room is not suitable for large groups of people.</p>
+            </div>
+        </div>
+        <div id="overlay2" class="container" onclick="off2()">
+            <div id="text">
+                <button type="button" class="button" id="laundry">laundry</button>
+                <img src="../images/laundry.png">
+                <h6>Where at?</h6>
+                <p>You can find the laundry room in the basement. Don’t forget to book the machine before using it. Please notice the option to book the drier.</p>
+                <h6>What for?</h6>
+                <p>You will find vacuum cleaners in the launderette. You are very welcome to use them. 
+                    However, remember to return them after use!</p>
+            </div>
+    </div>
+        <div id="overlay3" class="container" onclick="off3()">
+            <div id="text">
+                <button type="button" class="button" id="cycle">cycling room</button>
+                <img src="../images/cycling room.png">
+                <h6>Where at?</h6>
+                <p>The cycling room is in the basement, available for all the residents.</p>
+                <h6>What for?</h6>
+                <p>You will find an air pump as well as  some repairment instruments. Its free for all residents.</p>
+            </div>
+    </div>
+    <main>
+        <div class="top-content">
+        <section class="MobHeading">
+        <a href="../front-page/index.html" ><img src="../images/icons/home.png" alt="home page" id="MobHome"></a>
+        <h2>FACILITIES</h2>
+        </section>
+        <img src="../images/icons/b.lang.png" alt="change language to Danish" class="lang">
+    </div>
+
+        <div class="big_container">
+        <div class="container">
+            <button onclick="on()" type="button" class="button" id="common">common room</button>
+            <button onclick="on1()" type="button" class="button" id="study">study room</button>
+            <button onclick="on2()" type="button" class="button" id="laundry">laundry</button>
+            <button onclick="on3()" type="button" class="button" id="cycle">cycling room</button>
+        </div>
+        <div class="container2">
+            <img src="../images/shape.png" id="im"></div>
+    </div>
+    </main>
+    <section>
+        <div id="nav">navigation</div>
+    </section>
+
+    <script src="../js/js.js">
+    </script>
+    <script src="js.js"></script>
+</body>
+</html>
